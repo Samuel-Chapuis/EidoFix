@@ -1,0 +1,13 @@
+{
+  "itemGroup.eidofix": "Example Mod Tab",
+  "block.eidofix.example_block": "Example Block",
+  "item.eidofix.example_item": "Example Item",
+
+  "eidofix.configuration.title": "EidoFix Configs",
+  "eidofix.configuration.section.eidofix.common.toml": "EidoFix Configs",
+  "eidofix.configuration.section.eidofix.common.toml.title": "EidoFix Configs",
+  "eidofix.configuration.items": "Item List",
+  "eidofix.configuration.logDirtBlock": "Log Dirt Block",
+  "eidofix.configuration.magicNumberIntroduction": "Magic Number Text",
+  "eidofix.configuration.magicNumber": "Magic Number"
+}

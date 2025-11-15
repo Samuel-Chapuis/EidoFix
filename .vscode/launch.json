@@ -1,0 +1,93 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Client",
+      "presentation": {
+        "group": "Mod Development - EidoFix",
+        "order": 0
+      },
+      "projectName": "EidoFix",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Dev\\MC\\EidoFix\\build\\moddev\\clientRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Dev\\MC\\EidoFix\\build\\moddev\\clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003deidofix%%C:\\Dev\\MC\\EidoFix\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Data",
+      "presentation": {
+        "group": "Mod Development - EidoFix",
+        "order": 1
+      },
+      "projectName": "EidoFix",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Dev\\MC\\EidoFix\\build\\moddev\\dataRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Dev\\MC\\EidoFix\\build\\moddev\\dataRunVmArgs.txt",
+        "-Dfml.modFolders\u003deidofix%%C:\\Dev\\MC\\EidoFix\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "GameTestServer",
+      "presentation": {
+        "group": "Mod Development - EidoFix",
+        "order": 2
+      },
+      "projectName": "EidoFix",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Dev\\MC\\EidoFix\\build\\moddev\\gameTestServerRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Dev\\MC\\EidoFix\\build\\moddev\\gameTestServerRunVmArgs.txt",
+        "-Dfml.modFolders\u003deidofix%%C:\\Dev\\MC\\EidoFix\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Server",
+      "presentation": {
+        "group": "Mod Development - EidoFix",
+        "order": 3
+      },
+      "projectName": "EidoFix",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Dev\\MC\\EidoFix\\build\\moddev\\serverRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Dev\\MC\\EidoFix\\build\\moddev\\serverRunVmArgs.txt",
+        "-Dfml.modFolders\u003deidofix%%C:\\Dev\\MC\\EidoFix\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    }
+  ]
+}
