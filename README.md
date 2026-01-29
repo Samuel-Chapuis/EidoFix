@@ -1,25 +1,88 @@
+<p align="left" style="display: flex; gap: 16px; align-items: center;">
+	<img src="doc/logo.png" alt="Image 1" style="height:80px; width:80px; object-fit:cover;">
+	<img src="doc/barrier.png" alt="Image 2" style="height:80px; width:80px; object-fit:cover;">
+</p>
 
-Installation information
-=======
+# Eido-Fix
+## Description
+### English
+Eido-Fix is a mod that brings bug fixes or changes unwanted behaviors in the game.
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+### Français
+Eido-Fix est un mod qui apporte des bugfix ou des changement de comportements non souhaités dans le jeu.
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+## Advertisement
+### English
+As mentioned above, Eido-Fix is part of the Eido project mod collection. If you are interested in following the development of the Eido meta-project, feel free to join our server.
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+### Français
+Comme indiqué plus haut, Eido-Fix fait partie de la collection de mods du projet Eido. Si vous êtes intéressé par le suivi du développement du méta-projet Eido, je vous invite à rejoindre notre serveur.
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+### Media
+Still with the old name,
+- WebSite : https://mc.berryblue.fr/
+- Discord : https://discord.gg/brwbTkNnTx
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+<!-- ## Showcase
+
+<table>
+	<tr>
+		<td align="center">
+			<img src="doc/forest.png" height="200" width="200" style="object-fit:cover;">
+		</td>
+		<td align="center">
+			<img src="doc/jungle.png" height="200" width="200" style="object-fit:cover;">
+		</td>
+	</tr>
+	<tr>
+		<td align="center">
+			<img src="doc/swamp.png" height="200" width="200" style="object-fit:cover;">
+		</td>
+		<td align="center">
+			<img src="doc/taiga.png" height="200" width="200" style="object-fit:cover;">
+		</td>
+	</tr>
+</table> -->
+
+## Change List
+
+```
+
+java/
+  └─ Agriculture
+        ├─ Plant needs to view sky to grow
+		├─ Plant grow only in 25% of the case
+		└─ Bone meal only work in 30% of use
+  └─ Transportation
+        └─ Elytra canot be wear anymore
+	
+resources/
+  └─ loot_table 
+        ├─ removing iron drop from iron golem
+        ├─ removing iron drop from iron zombie
+        ├─ removing iron drop from iron zombie villager
+        └─ removing gold drop from iron piglin
+```
+
+If you want, I can expand any of the subfolders above into a full file list (for example, list every file under `assets/eidoplants/blockstates/` or every class in `fr.Eidolyth`).
+
+## Contribution
+1. Create a dedicated branch for each new feature or bug fix.
+2. Commit your changes with clear and detailed messages.
+3. Make sure to follow the project's [Git syntax](doc/gitSyntax.md).
+4. Submit a pull request for review by another team member.
+
+## Authors
+- Samuel Chapuis (Thorid4n) — Project Lead
+
+## Acknowledgments
+This section recognizes the main contributors to the project and their roles.
+
+- Avixy — Developer
+- Fabrice Lozac'h (Fab0uu) — Network Developer
+
+## License
+This project is licensed under the MIT License.
+You are free to use, modify, and distribute this software with proper attribution.
+
+See [LICENSE](LICENSE) for details.
